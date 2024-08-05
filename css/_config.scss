@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1124px;
+    margin: 0 auto;
+}
+.my{
+    margin:2% 0;
+}
+@mixin flex($justfy){
+    display: flex;
+    justify-content: $justfy;
+}
